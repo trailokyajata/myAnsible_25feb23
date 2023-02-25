@@ -1,7 +1,7 @@
 ---
 - hosts: all
   become: yes
-  gather_fact: yes
+  gather_facts: yes
   tasks: 
     - name: i want to install websever 
       apt:
