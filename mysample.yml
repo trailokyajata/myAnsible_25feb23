@@ -1,6 +1,7 @@
 ---
 - hosts: all
   become: yes
+  gather_fact: yes
   tasks: 
     - name: i want to install websever 
       apt:
@@ -10,4 +11,4 @@
     - name: i want to install tree
       apt:
         name: tree
-        state: present    
+        state: present 
