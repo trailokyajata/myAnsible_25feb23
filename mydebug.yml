@@ -8,5 +8,5 @@
 
 
   - name: i want to display first task result
-    debuga:
+    debug:
       msg: "{{myresult}}"
